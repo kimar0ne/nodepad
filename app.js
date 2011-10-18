@@ -56,7 +56,7 @@ emails = {
   },
 
   sendWelcome: function(user) {
-    this.send('welcome.jade', { to: user.email, subject: 'Welcome to Nodepad' }, { locals: { user: user } });
+    this.send('welcome.jade', { to: user.email, subject: 'Welcome to Nodeblog' }, { locals: { user: user } });
   }
 };
 
